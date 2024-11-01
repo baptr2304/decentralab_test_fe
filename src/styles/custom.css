@@ -1,0 +1,5 @@
+.text-gradient {
+    @apply bg-gradient-3 bg-clip-text text-transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
