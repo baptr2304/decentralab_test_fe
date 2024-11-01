@@ -4,7 +4,7 @@ export default function FeatureCard({ icon, title, description }) {
     <div className="flex flex-col self-stretch w-[15.875rem] p-4 rounded-[0.25rem] border-neutral-4 border box-border gap-6">
       <div className="w-[2.875rem] h-[2.875rem] bg-conic-gradient bg-blend-overlay relative rounded-sm ">
         <div
-          className="absolute inset-0 backdrop-blur-md flex items-center justify-center"
+          className="absolute inset-0 backdrop-blur-md flex items-center justify-center text-white"
           style={{ clipPath: "inset(0 round 0.125rem)" }}
         >
           <div>{icon}</div>
